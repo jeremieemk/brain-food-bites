@@ -1,0 +1,112 @@
+[
+  {
+    "date": "2026-11-10",
+    "subject": "Binary and bits — how computers store everything as 0s and 1s",
+    "title": "Why Do Computers Use 1s and 0s? Binary and Transistors Explained.",
+    "channel": "Basics Explained (H3Vtux)",
+    "length": "7:00",
+    "url": "https://www.youtube.com/watch?v=Xpk67YzOn5w",
+    "angle": "from the hardware up: transistors as tiny switches",
+    "why": "Shows why a computer only knows on and off, and how those switches add up to numbers and text. 5M views, 143K likes."
+  },
+  {
+    "date": "2026-11-12",
+    "subject": "Big O notation — how to judge if code stays fast as data grows",
+    "title": "Big-O Notation in 100 Seconds",
+    "channel": "Fireship",
+    "length": "1:40",
+    "url": "https://www.youtube.com/watch?v=g2o22C3CRfU",
+    "angle": "the whole idea in 100 seconds, shown on small code examples",
+    "why": "You get the common speeds (constant, linear, quadratic, log) and how to spot each one in a loop, fast enough to watch twice."
+  },
+  {
+    "date": "2026-11-12",
+    "subject": "Hashing — turning any data into a short fingerprint",
+    "title": "Hashing Algorithms and Security - Computerphile",
+    "channel": "Computerphile",
+    "length": "8:12",
+    "url": "https://www.youtube.com/watch?v=b4b8ktEV4Bg",
+    "angle": "Tom Scott shows hashing through real uses: checking a download, storing passwords",
+    "why": "You see what a hash is for, why a tiny change flips the whole fingerprint, and why old hashes like MD5 get broken and replaced. 1.66M views, 36K likes."
+  },
+  {
+    "date": "2026-11-12",
+    "subject": "Data structures — lists, maps, trees: picking the right box for data",
+    "title": "10 Key Data Structures We Use Every Day",
+    "channel": "ByteByteGo",
+    "length": "8:43",
+    "url": "https://www.youtube.com/watch?v=ouipSd_5ivQ",
+    "angle": "each structure shown inside a real product you already use",
+    "why": "Animated diagrams of lists, maps, trees, graphs and more, each tied to where it really lives: your browser history, a spreadsheet, a map app, a database. 455K views, 16K likes."
+  },
+  {
+    "date": "2026-11-12",
+    "subject": "Recursion — a function that solves a problem by calling itself",
+    "title": "What on Earth is Recursion? - Computerphile",
+    "channel": "Computerphile",
+    "length": "9:40",
+    "url": "https://www.youtube.com/watch?v=Mv9NEXX1VHc",
+    "angle": "factorial worked by hand, call by call, then compared with a plain loop",
+    "why": "You watch each call wait for the next one and then unwind back up, which is the part that makes recursion click. 781K views, 26K likes."
+  },
+  {
+    "date": "2026-11-12",
+    "subject": "How the internet works — packets, IP addresses, DNS",
+    "title": "What happens when you type a URL into your browser?",
+    "channel": "ByteByteGo",
+    "length": "5:20",
+    "url": "https://www.youtube.com/watch?v=AlkDbnbv7dk",
+    "angle": "follows one real action, typing a URL, from keypress to page",
+    "why": "No theory first: you follow one request as DNS finds the server's address, a connection opens, and the page comes back. Each step is something your apps do on every API call. 485K views, 19K likes."
+  },
+  {
+    "date": "2026-11-13",
+    "subject": "Caching — keeping a copy close by to avoid slow work",
+    "title": "Memory, Cache Locality, and why Arrays are Fast (Data Structures and Optimization)",
+    "channel": "SimonDev",
+    "length": "9:38",
+    "url": "https://www.youtube.com/watch?v=247cXLkYt2M",
+    "angle": "one cache taken apart, the CPU's, proven with code and real timings",
+    "why": "You see why reading memory in order is fast and jumping around is slow, with benchmarks on screen. It shows what a cache actually does, not just where caches live. 343K views, 11.6K likes."
+  },
+  {
+    "date": "2026-11-16",
+    "subject": "Concurrency — doing many things at once without breaking data",
+    "title": "Atomic Operations - Computerphile",
+    "channel": "Computerphile",
+    "length": "9:46",
+    "url": "https://www.youtube.com/watch?v=BHOw09O3ZsI",
+    "angle": "Matt Godbolt builds a fair lock from one atomic step, like a deli counter's ticket machine",
+    "why": "You will see how threads can wait their turn fairly, like taking a number at a deli counter: everyone gets a place in line, so nobody waits forever. It is built on an atomic operation, a step that can never be cut in half."
+  },
+  {
+    "date": "2026-11-17",
+    "subject": "How neural networks learn — weights, errors, gradient descent",
+    "title": "AI Doesn't Know Anything. It Just Passes Tests.",
+    "channel": "CGP Grey",
+    "length": "8:55",
+    "url": "https://www.youtube.com/watch?v=R9OHn5ZF4Uo",
+    "angle": "the very basics, no math: a story of bots that get tested and tweaked",
+    "why": "No formulas and no code. Cartoon bots try a task, get graded, and the best ones get small changes, over and over, until they get good. You leave knowing the big idea: nobody writes the rules, the machine is shaped by tests. 12.6M views, 667K likes."
+  },
+  {
+    "date": "2026-11-17",
+    "subject": "Tokens and embeddings — how language models turn words into numbers",
+    "title": "Large Language Models explained briefly",
+    "channel": "3Blue1Brown",
+    "length": "7:58",
+    "url": "https://www.youtube.com/watch?v=LPZh9BOjkQs",
+    "angle": "the big picture first, with animations, no formulas",
+    "why": "You see how a chatbot works at heart: it guesses the next word, again and again. Along the way you see words being turned into lists of numbers, so the computer can work with them. Made for a general audience. 8.6M views, 205K likes."
+  },
+  {
+    "date": "2026-11-19",
+    "subject": "Binary and bits — how computers store everything as 0s and 1s",
+    "title": "How to count to 1000 on two hands",
+    "channel": "3Blue1Brown",
+    "length": "2:34",
+    "url": "https://www.youtube.com/watch?v=1SMmc9gQmHQ",
+    "angle": "targets the weak spot: place values, counted on your own fingers (1, 2, 4, 8...)",
+    "why": "Each finger is worth double the one before, so you feel how binary place values work instead of memorising them. Try it along with the video: by the end, reading a binary number becomes simple addition. 457K views, 13K likes."
+  }
+]

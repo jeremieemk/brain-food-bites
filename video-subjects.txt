@@ -1,0 +1,10 @@
+Binary and bits — how computers store everything as 0s and 1s
+Big O notation — how to judge if code stays fast as data grows
+Hashing — turning any data into a short fingerprint
+Data structures — lists, maps, trees: picking the right box for data
+Recursion — a function that solves a problem by calling itself
+How the internet works — packets, IP addresses, DNS
+Caching — keeping a copy close by to avoid slow work
+Concurrency — doing many things at once without breaking data
+How neural networks learn — weights, errors, gradient descent
+Tokens and embeddings — how language models turn words into numbers

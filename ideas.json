@@ -1,0 +1,370 @@
+[
+  {
+    "id": "binary-and-bits-1",
+    "subject": "Binary and bits — how computers store everything as 0s and 1s",
+    "idea": "Binary is just a way of counting, like our base 10, but each digit can only be 0 or 1, so each new digit doubles the value (1, 2, 4, 8, 16...).",
+    "source": "01-binary-Xpk67YzOn5w.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-11-20",
+    "reviews": [
+      {
+        "date": "2026-11-19",
+        "result": "hint",
+        "question": "In everyday numbers '10' means ten. In binary, what number does '10' stand for, and why?"
+      }
+    ]
+  },
+  {
+    "id": "big-o-notation-1",
+    "subject": "Big O notation — how to judge if code stays fast as data grows",
+    "idea": "Big O describes how the time (or memory) of an algorithm grows as the input size n grows, not how fast it is on one run.",
+    "source": "02-big-o-g2o22C3CRfU.txt",
+    "added": "2026-11-19",
+    "step": 1,
+    "due": "2026-11-22",
+    "reviews": [
+      {
+        "date": "2026-11-19",
+        "result": "got",
+        "question": "Big O doesn't tell you how many seconds code takes. So what does it tell you? (example from your own work)"
+      }
+    ]
+  },
+  {
+    "id": "hashing-1",
+    "subject": "Hashing — turning any data into a short fingerprint",
+    "idea": "A hash turns any file into a short fixed-size code that sums it up, and it only works one way: you can't get the file back from the hash.",
+    "source": "03-hashing-b4b8ktEV4Bg.txt",
+    "added": "2026-11-19",
+    "step": 1,
+    "due": "2026-11-22",
+    "reviews": [
+      {
+        "date": "2026-11-19",
+        "result": "got",
+        "question": "You hash a 2 GB video and get a ~64-character code. Can someone with only the code get the video back? Why or why not?"
+      }
+    ]
+  },
+  {
+    "id": "data-structures-1",
+    "subject": "Data structures — lists, maps, trees: picking the right box for data",
+    "idea": "Stack = last in, first out (undo history); queue = first in, first out (chat messages in order of arrival).",
+    "source": "04-data-structures-ouipSd_5ivQ.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-11-21",
+    "reviews": []
+  },
+  {
+    "id": "recursion-1",
+    "subject": "Recursion — a function that solves a problem by calling itself",
+    "idea": "A recursive function defines a problem through a smaller version of itself (factorial of n = n × factorial of n−1) and needs a stopping case (factorial of 1 = 1).",
+    "source": "05-recursion-Mv9NEXX1VHc.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-11-21",
+    "reviews": []
+  },
+  {
+    "id": "how-the-internet-works-1",
+    "subject": "How the internet works — packets, IP addresses, DNS",
+    "idea": "DNS is the internet's phone book: it turns a domain name into an IP address, with answers cached by the browser, the operating system and resolvers along the way.",
+    "source": "06-internet-url-AlkDbnbv7dk.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-11-22",
+    "reviews": []
+  },
+  {
+    "id": "caching-1",
+    "subject": "Caching — keeping a copy close by to avoid slow work",
+    "idea": "The CPU checks small fast caches (L1, then L2, then L3) before main memory; a miss that goes all the way to memory costs about 100 times more.",
+    "source": "07-caching-247cXLkYt2M.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-11-22",
+    "reviews": []
+  },
+  {
+    "id": "concurrency-1",
+    "subject": "Concurrency — doing many things at once without breaking data",
+    "idea": "An atomic operation is a step that no other thread can interrupt halfway, like 'add 1 to this number and tell me the old value'.",
+    "source": "08-concurrency-BHOw09O3ZsI.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-11-22",
+    "reviews": []
+  },
+  {
+    "id": "how-neural-networks-learn-1",
+    "subject": "How neural networks learn — weights, errors, gradient descent",
+    "idea": "Nobody writes the rules: bots are made, tested against an answer key, and the best ones are kept and changed slightly, over and over.",
+    "source": "09-neural-networks-R9OHn5ZF4Uo.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-11-23",
+    "reviews": []
+  },
+  {
+    "id": "tokens-and-embeddings-1",
+    "subject": "Tokens and embeddings — how language models turn words into numbers",
+    "idea": "A language model predicts the next word, giving a probability to every possible word; a chatbot is that prediction repeated, sometimes picking a less likely word, so answers vary.",
+    "source": "10-llms-LPZh9BOjkQs.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-11-23",
+    "reviews": []
+  },
+  {
+    "id": "binary-and-bits-2",
+    "subject": "Binary and bits — how computers store everything as 0s and 1s",
+    "idea": "Computers use binary because they are built from tiny switches (transistors) that are only on or off: one switch = one bit.",
+    "source": "01-binary-Xpk67YzOn5w.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-11-24",
+    "reviews": []
+  },
+  {
+    "id": "big-o-notation-2",
+    "subject": "Big O notation — how to judge if code stays fast as data grows",
+    "idea": "The common growth types: constant (lookup by index), logarithmic (binary search on sorted data), linear (one loop), quadratic (loop inside a loop), exponential (every combination).",
+    "source": "02-big-o-g2o22C3CRfU.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-11-24",
+    "reviews": []
+  },
+  {
+    "id": "hashing-2",
+    "subject": "Hashing — turning any data into a short fingerprint",
+    "idea": "Avalanche effect: changing a single bit anywhere in the file gives a completely different hash.",
+    "source": "03-hashing-b4b8ktEV4Bg.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-11-24",
+    "reviews": []
+  },
+  {
+    "id": "data-structures-2",
+    "subject": "Data structures — lists, maps, trees: picking the right box for data",
+    "idea": "A hash table uses a hash function to turn a key into a storage spot, so finding, adding or removing by key takes about the same time however big it gets.",
+    "source": "04-data-structures-ouipSd_5ivQ.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-11-25",
+    "reviews": []
+  },
+  {
+    "id": "recursion-2",
+    "subject": "Recursion — a function that solves a problem by calling itself",
+    "idea": "Each call gets its own copy of the variables, kept apart in its own frame on the stack: there isn't one n, there are many.",
+    "source": "05-recursion-Mv9NEXX1VHc.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-11-25",
+    "reviews": []
+  },
+  {
+    "id": "how-the-internet-works-2",
+    "subject": "How the internet works — packets, IP addresses, DNS",
+    "idea": "Before sending a request, the browser opens a TCP connection (a handshake of several round trips), plus a TLS handshake for HTTPS; it reuses connections (keep-alive) to save that cost.",
+    "source": "06-internet-url-AlkDbnbv7dk.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-11-26",
+    "reviews": []
+  },
+  {
+    "id": "caching-2",
+    "subject": "Caching — keeping a copy close by to avoid slow work",
+    "idea": "On a miss, the CPU loads a whole 64-byte 'cache line', not just what you asked for, so the neighbours come for free (like borrowing the whole book, not one chapter).",
+    "source": "07-caching-247cXLkYt2M.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-11-26",
+    "reviews": []
+  },
+  {
+    "id": "concurrency-2",
+    "subject": "Concurrency — doing many things at once without breaking data",
+    "idea": "A spin lock (everyone keeps trying the door) isn't fair and burns CPU; a ticket lock (like a deli counter: take a number, wait for 'now serving') gives everyone a place in line.",
+    "source": "08-concurrency-BHOw09O3ZsI.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-11-26",
+    "reviews": []
+  },
+  {
+    "id": "how-neural-networks-learn-2",
+    "subject": "How neural networks learn — weights, errors, gradient descent",
+    "idea": "The resulting bot works but nobody, not even its makers, can explain how it decides.",
+    "source": "09-neural-networks-R9OHn5ZF4Uo.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-11-27",
+    "reviews": []
+  },
+  {
+    "id": "tokens-and-embeddings-2",
+    "subject": "Tokens and embeddings — how language models turn words into numbers",
+    "idea": "Training starts from random parameters and nudges them, over trillions of examples, to make the true next word more likely (backpropagation).",
+    "source": "10-llms-LPZh9BOjkQs.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-11-27",
+    "reviews": []
+  },
+  {
+    "id": "binary-and-bits-3",
+    "subject": "Binary and bits — how computers store everything as 0s and 1s",
+    "idea": "A byte is 8 bits, enough for 256 values (0 to 255); text works by agreeing on a table (ASCII) where each number stands for a letter, e.g. 65 = 'A'.",
+    "source": "01-binary-Xpk67YzOn5w.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-11-28",
+    "reviews": []
+  },
+  {
+    "id": "big-o-notation-3",
+    "subject": "Big O notation — how to judge if code stays fast as data grows",
+    "idea": "When code mixes several growth rates, you keep only the fastest-growing, worst-case one.",
+    "source": "02-big-o-g2o22C3CRfU.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-11-28",
+    "reviews": []
+  },
+  {
+    "id": "hashing-3",
+    "subject": "Hashing — turning any data into a short fingerprint",
+    "idea": "Collisions (two files, same hash) must exist, but a hash is broken when someone can create one on purpose, as happened to MD5; a hash that's too fast makes this easier.",
+    "source": "03-hashing-b4b8ktEV4Bg.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-11-28",
+    "reviews": []
+  },
+  {
+    "id": "data-structures-3",
+    "subject": "Data structures — lists, maps, trees: picking the right box for data",
+    "idea": "Trees hold data with a natural hierarchy (file systems) and speed up search in databases; graphs hold relationships (who is friends with whom).",
+    "source": "04-data-structures-ouipSd_5ivQ.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-11-29",
+    "reviews": []
+  },
+  {
+    "id": "recursion-3",
+    "subject": "Recursion — a function that solves a problem by calling itself",
+    "idea": "Calls pile up waiting ('pending multiply') until the stopping case answers, then the results flow back down one frame at a time.",
+    "source": "05-recursion-Mv9NEXX1VHc.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-11-29",
+    "reviews": []
+  },
+  {
+    "id": "how-the-internet-works-3",
+    "subject": "How the internet works — packets, IP addresses, DNS",
+    "idea": "Loading a page = DNS lookup, connect, send an HTTP request, get a response; then the same steps repeat for every script and image the page needs.",
+    "source": "06-internet-url-AlkDbnbv7dk.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-11-30",
+    "reviews": []
+  },
+  {
+    "id": "caching-3",
+    "subject": "Caching — keeping a copy close by to avoid slow work",
+    "idea": "The prefetcher spots regular access patterns (going through an array in order) and loads the next data before you ask for it.",
+    "source": "07-caching-247cXLkYt2M.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-11-30",
+    "reviews": []
+  },
+  {
+    "id": "concurrency-3",
+    "subject": "Concurrency — doing many things at once without breaking data",
+    "idea": "To skip locking when work is already done (e.g. database already connected), check first, then if needed take the lock and check again, since someone may have done it meanwhile.",
+    "source": "08-concurrency-BHOw09O3ZsI.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-11-30",
+    "reviews": []
+  },
+  {
+    "id": "how-neural-networks-learn-3",
+    "subject": "How neural networks learn — weights, errors, gradient descent",
+    "idea": "A bot is only good at the kind of test it was trained on, so more data = longer tests = better bots; that's why companies collect so much data.",
+    "source": "09-neural-networks-R9OHn5ZF4Uo.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-12-01",
+    "reviews": []
+  },
+  {
+    "id": "tokens-and-embeddings-3",
+    "subject": "Tokens and embeddings — how language models turn words into numbers",
+    "idea": "Each word becomes a long list of numbers that encodes its meaning, because training only works with numbers.",
+    "source": "10-llms-LPZh9BOjkQs.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-12-01",
+    "reviews": []
+  },
+  {
+    "id": "binary-and-bits-4",
+    "subject": "Binary and bits — how computers store everything as 0s and 1s",
+    "idea": "Using 2 bytes together as one number (16 bits) jumps the maximum from 255 to 65,535: adding bits grows the range exponentially.",
+    "source": "01-binary-Xpk67YzOn5w.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-12-02",
+    "reviews": []
+  },
+  {
+    "id": "hashing-4",
+    "subject": "Hashing — turning any data into a short fingerprint",
+    "idea": "A hash shown next to a download proves the file arrived intact, not that it's safe: whoever can swap the file on the site can swap the hash too.",
+    "source": "03-hashing-b4b8ktEV4Bg.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-12-02",
+    "reviews": []
+  },
+  {
+    "id": "data-structures-4",
+    "subject": "Data structures — lists, maps, trees: picking the right box for data",
+    "idea": "Data stored side by side in memory (array) is faster for the CPU than data scattered around with pointers (linked list), because of the CPU cache.",
+    "source": "04-data-structures-ouipSd_5ivQ.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-12-02",
+    "reviews": []
+  },
+  {
+    "id": "caching-4",
+    "subject": "Caching — keeping a copy close by to avoid slow work",
+    "idea": "Arrays are fast to loop through, read by index and add to at the end, but slow to search and to insert or remove near the start (everything after must shift).",
+    "source": "07-caching-247cXLkYt2M.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-12-03",
+    "reviews": []
+  },
+  {
+    "id": "tokens-and-embeddings-4",
+    "subject": "Tokens and embeddings — how language models turn words into numbers",
+    "idea": "Attention lets these lists of numbers update each other from context, all at once ('bank' near 'river' shifts toward riverbank).",
+    "source": "10-llms-LPZh9BOjkQs.txt",
+    "added": "2026-11-19",
+    "step": 0,
+    "due": "2026-12-03",
+    "reviews": []
+  }
+]

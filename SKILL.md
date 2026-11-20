@@ -1,9 +1,9 @@
 ---
-name: fundamentals-video
-description: Recommends ONE short (under 10 minutes), high-quality, hands-on English YouTube video on a computer science or AI fundamental, cycling in order through the subject list in video-subjects.txt (in this folder). Adds each pick to the top of a single HTML page that opens in the browser, and keeps a history so no video repeats. Use when the user runs /fundamentals-video, asks for a new video, a "video to learn", or a short CS / AI fundamentals video.
+name: brain-food-bites
+description: Recommends ONE short (under 10 minutes), high-quality, hands-on English YouTube video on a computer science or AI fundamental, cycling in order through the subject list in video-subjects.txt (in this folder). Adds each pick to the top of a single HTML page that opens in the browser, and keeps a history so no video repeats. Use when the user runs /brain-food-bites, asks for a new video, a "video to learn", or a short CS / AI fundamentals video.
 ---
 
-# Fundamentals video — one short video, one subject at a time
+# Brain food bites — one short video, one subject at a time
 
 ## Who it is for
 

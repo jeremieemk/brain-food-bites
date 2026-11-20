@@ -55,7 +55,7 @@ const html = `<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fundamentals videos</title>
+<title>Brain food bites</title>
 <style>
   :root { --bg: #fafaf8; --fg: #1d1d1b; --muted: #6b6b66; --line: #e4e4df; --link: #1f5fbf; }
   @media (prefers-color-scheme: dark) {
@@ -76,7 +76,7 @@ const html = `<!doctype html>
 </head>
 <body>
 <main>
-  <h1>Fundamentals videos</h1>
+  <h1>Brain food bites</h1>
 ${cards}
 </main>
 </body>
